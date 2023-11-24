@@ -1,0 +1,111 @@
+.hero{
+    background-color: var(--secondary-color);
+    height:100vh;
+}
+
+.hero-container{
+    max-width:1000px;
+    width:100%;
+}
+
+.hero-content{
+    display:flex;
+    padding:8.5rem 0rem 7rem;
+}
+
+.hero-title-container{
+    display:flex;
+    max-width:600px;
+    position:relative;
+}
+
+.hero-title{
+    font-size:3.4rem;
+    font-weight:700;
+    color: #2d2e32;
+    line-height:4.2rem;
+}
+
+.hero-icon{
+    max-width:65px;
+    position: absolute;
+    bottom:calc(0%);
+    left:calc(50%);
+}
+
+.hero-description{
+    max-width:500px;
+    margin-top:1.7rem;
+}
+
+.description-text{
+    color: #555555;
+    font-weight:500;
+    font-size:1.2rem;
+}
+
+.hero-socials{
+    margin-top:1.2rem;
+    display:flex;
+    gap:0.5rem;
+}
+
+
+.social-link:hover svg{
+    stroke:#147EFB;
+}
+
+.technologies-container{
+    display:flex;
+    align-items:center;
+    gap:3rem;
+}
+
+.technologies-title{
+    border-right: 2px solid rgba(45,46,50,.5);
+    padding:0rem 1rem 0rem 0rem;
+    display:inline;
+    font-family: Mulish, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+
+.card{
+    transition: all .3s ease-in-out;
+    cursor:pointer;
+    position: relative;
+}
+
+.card:hover{
+    transition: all .3s ease-in-out;
+    transform: translateY(-13%);
+}
+
+.card:hover .card-title-hover{
+    display:flex;
+}
+
+.technologies-cards{
+    display:flex;
+    gap:1.7rem;
+}
+
+.card-image{
+    height:53px;
+}
+
+.card-title-hover{
+    display:none;
+    position: absolute;
+    top:calc(0% - 2rem);
+    left:50%;
+    transform: translateX(-50%);
+    width:100%;
+    justify-content:center;
+    gap:0.2rem;
+}
+
+.text{
+    font-size:1.2rem;
+    font-weight:500;
+}

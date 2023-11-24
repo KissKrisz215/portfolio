@@ -1,5 +1,14 @@
 {
-  "header": {
-    "message": "Welcome"
+  "navbar": {
+    "item1": "Home",
+    "item2": "About",
+    "item3": "Projects",
+    "item4": "Contact"
+  },
+  "hero": {
+    "title1": "Front-End React Developer",
+    "title2": "Full Stack Developer",
+    "description": "Hi, I'm Krisztian Kiss. A passionate Front-end React Developer based in Budapest, Hungary.",
+    "footer": "Tech Stack"
   }
 }

@@ -1,5 +1,14 @@
 {
-  "header": {
-    "message": "Szia"
+  "navbar": {
+    "item1": "Kezdőlap",
+    "item2": "Rólam",
+    "item3": "Projektek",
+    "item4": "Elérhetőség"
+  },
+  "hero": {
+    "title1": "Front-End React Fejlesztő ",
+    "title2": "Full Stack Fejlesztő",
+    "description": "Szia, Kiss Krisztian vagyok. Szenvedélyes Front-end React Fejlesztő Budapesten, Magyarországon.",
+    "footer": "Technológiák"
   }
 }
