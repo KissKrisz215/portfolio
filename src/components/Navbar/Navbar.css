@@ -1,0 +1,23 @@
+.navbar{
+    min-height:80px;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    display:flex;
+    align-items:center;
+}
+
+.navbar-brand{
+    font-size:1.3rem;
+    font-weight:700;
+}
+
+.navbar-link{
+    transition: color .15s ease-in-out;
+    font-weight:700;
+    font-size:1.1rem;
+    display:flex;
+    align-items: center;
+}
+
+.navbar-link:hover{
+   color: #147EFB;
+}
