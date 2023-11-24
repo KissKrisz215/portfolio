@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import "./Hero.css";
 import heroIcon from "../../assets/hero-icon.png";
+import profilePicture from "../../assets/profile.jpg";
 
 function Hero() {
   const [t, i18n] = useTranslation("global");
@@ -65,6 +66,9 @@ function Hero() {
                 </svg>
               </a>
             </div>
+          </div>
+          <div>
+            <img className="profile-picture" src={profilePicture} alt="" />
           </div>
         </div>
         <div className="technologies-container">
