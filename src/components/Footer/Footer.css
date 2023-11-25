@@ -1,0 +1,32 @@
+.footer-container{
+    max-width:1000px;
+    width:100%;
+    min-height:170px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-wrapper{
+    background-color: var(--primary-color);
+}
+
+.copyright-text{
+    color:#fff;
+    font-weight: 700;
+    font-size:1.2rem;
+}
+
+.socials-container{
+    display: flex;
+    gap:1.3rem;
+}
+
+.socials-icon{
+    transition: all .18s ease-in-out;
+}
+
+.socials-icon:hover{
+    transform: scale(1.2);
+    transition: all .18s ease-in-out;
+}
