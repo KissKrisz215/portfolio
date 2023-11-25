@@ -10,5 +10,10 @@
     "title2": "Full Stack Developer",
     "description": "Hi, I'm Krisztian Kiss. A passionate Front-end React Developer based in Budapest, Hungary.",
     "footer": "Tech Stack"
+  },
+  "about": {
+    "subtitle": "About Me",
+    "title": "A dedicated Front-end Developer based in Budapest, Hungary",
+    "description": "As a Front-End Developer with a strong foundation in HTML, CSS, and JavaScript, I specialize in creating dynamic and responsive websites. My skill set includes proficiency in React, Tailwind, and Redux, enabling me to create and maintain interfaces that provide a seamless user experience. I am adept at writing clean code, using the latest tools and techniques to craft engaging web applications. While my primary focus is front-end development, I am also experienced in building full-stack applications using technologies such as Express, MongoDB, and Node.js. I thrive in collaborative environments and enjoy working with cross-functional teams to deliver exceptional web solutions."
   }
 }
