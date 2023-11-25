@@ -15,5 +15,48 @@
     "subtitle": "Rólam",
     "title": "Szenvedélyes Front-end React Fejlesztő Budapesten, Magyarországon.",
     "description": "Front-End fejlesztőként erős alapokkal rendelkezem HTML-ben, CSS-ben és JavaScript-ben. Szaktudásom dinamikus és reszponzív weboldalak létrehozására terjed ki, ami magába foglalja a React, a Tailwind és a Redux használatát, amelyek lehetővé teszik számomra a weboldalak létrehozását és karbantartását. Mindig törekszem a tiszta és átlátható kód írására, amihez a legújabb eszközöket és technikákat alkalmazom. Bár elsősorban a front-end fejlesztésre összpontosítok, tapasztalt vagyok teljes alkalmazások készítésében is Express, MongoDB és Node.js használatával.Igényes vagyok a munkámra és mindig törekszem továbbfejlődésre és az új dolgok elsajátítására. Jól érzem magam a kollaboratív környezetekben, és örömmel dolgozom együtt különböző csapatokkal annak érdekében, hogy kiváló webes megoldásokat hozzunk létre."
+  },
+  "portfolio": {
+    "subtitle": "Portfólió ",
+    "title": "Minden projekt egy egyedi darab",
+    "crypto-project": {
+      "title": "Crypto Tracker",
+      "date": "2023. Október",
+      "description": "A Kripto Nyomkövető egy olyan alkalmazás, amely lehetővé teszi a felhasználók számára, hogy valós időben információt szerezzenek különböző kriptovalutákról.",
+      "tech": ["React", "Redux", "Styled-Components"],
+      "CodeUrl": "https://github.com/KissKrisz215/crypto-app",
+      "DemoUrl": "https://cryptotracker.pro/",
+      "icon": "🌑",
+      "tech1": "React",
+      "tech2": "Redux",
+      "tech3": "Styled-Components"
+    },
+    "supershop-project": {
+      "title": "SuperShop Webshop",
+      "date": "2023. november",
+      "description": "A SuperShop egy élelmiszerbolt  weboldal. Ahol kölönböző élelmiszerek közül válogathat és leadhatja megrendelését.",
+      "tech": ["React", "Redux", "Node.js", "MongoDB"],
+      "CodeUrl": "https://github.com/KissKrisz215/SuperShop",
+      "DemoUrl": "https://super-shop-three.vercel.app/",
+      "icon": "🛒",
+      "tech1": "React",
+      "tech2": "Redux",
+      "tech3": "Node.js",
+      "tech4": "MongoDB",
+      "tech5": "Express"
+    },
+    "fruitninja-project": {
+      "title": "Fruit Ninja Játék",
+      "date": "2023. április",
+      "description": "A Fruit Ninja egy olyan játék, ahol a játékosok célja hogy a lehető legtöbb gyümölcsöt kettévágják a játék időn belül.",
+      "tech": ["HTML", "CSS", "Javascript", "P5.js"],
+      "CodeUrl": "https://github.com/KissKrisz215/fruit-ninja",
+      "DemoUrl": "https://kisskrisz215.github.io/fruit-ninja/",
+      "icon": "🥥",
+      "tech1": "HTML",
+      "tech2": "CSS",
+      "tech3": "Javascript",
+      "tech4": "P5.js"
+    }
   }
 }

@@ -1,0 +1,145 @@
+.container-projects{
+    max-width:1000px;
+    width:100%;
+    min-height:100vh;
+    padding:8rem 0rem;
+}
+
+.wrapper-projects{
+    background-color: var(--secondary-color);
+}
+
+.container-subtitle{
+    color:#147EFB;
+    font-weight:700;
+    font-size:1.2rem;
+    text-transform: uppercase;
+}
+
+.container-title{
+    font-size:1.7em;
+    font-weight:700;
+    color: #2d2e32;
+    line-height:4.2rem;
+    display:flex;
+    gap:0.4rem;
+    align-items: center;
+}
+
+.projects-container{
+    margin-top:3rem;
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+}
+
+.project-card{
+        min-height:400px;
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        padding:1.5rem;
+        display:flex;
+        gap:0.5rem;
+}
+
+.project-text-container{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0rem 1.5rem;
+    box-sizing: border-box;
+}
+
+.project-title{
+    text-transform: uppercase;
+    font-weight:700;
+    display:flex;
+    align-items: center;
+    gap:0.4rem;
+    font-size:1.1rem;
+}
+
+.icon{
+    font-size:1.2rem;
+}
+
+.project-date{
+    color:#151313c5;
+    font-size:0.9rem;
+    display: flex;
+    align-items: center;
+    gap:0.3rem;
+}
+
+.project-description{
+    margin-top: 1rem;
+    text-align: center;
+    color: #767676;
+    font-weight: 600;
+    font-size:1.1rem;
+}
+
+.project-image-container{
+    height: 100%;
+    width:65%;
+}
+
+.image{
+    height: 100%;
+    border-radius:1.1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    background-color: hsla(0,0%,46%,.2);
+    cursor: pointer;
+    max-height: 346px;
+    width:100%;
+}
+
+.tech-container{
+    margin-top: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 320px;
+    justify-content: center;
+    gap:0.4rem;
+}
+
+.tech-data{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 0.5rem 0.65rem;
+    font-weight:600;
+    font-size:1.1rem;
+    border-radius: 0.1rem;
+    font-family: Mulish,sans-serif!important;
+}
+
+.buttons-container{
+    display:flex;
+    gap:2rem;
+    margin-top:3rem;
+}
+
+.link-button{
+    font-weight:500;
+    font-size:1.2rem;
+    display:flex;
+    gap:0.1rem;
+    align-items: center;
+}
+
+.link-button:hover svg{
+    stroke:#147EFB;
+}
+
+.link-button:hover .link-text{
+    color: #147EFB;
+}
+
+.link-icon{
+}
+
+.link-text{
+    font-size:1.1rem;
+}
