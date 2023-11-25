@@ -10,7 +10,7 @@ function Projects() {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="wrapper wrapper-projects">
+    <div className="wrapper wrapper-projects" id="projects">
       <div className="container-projects">
         <span className="container-subtitle">{t("portfolio.subtitle")}</span>
         <h4 className="container-title">

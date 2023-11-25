@@ -13,6 +13,7 @@
 .navbar-brand{
     font-size:1.3rem;
     font-weight:700;
+    cursor: pointer;
 }
 
 .navbar-link{
@@ -21,6 +22,7 @@
     font-size:1.1rem;
     display:flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .navbar-link:hover{

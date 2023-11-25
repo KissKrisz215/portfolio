@@ -7,7 +7,7 @@ function Contact() {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="wrapper">
+    <div className="wrapper" id="contact">
       <div className="contact-container">
         <h5 className="subtitle">{t("contact.subtitle")}</h5>
         <span className="title">

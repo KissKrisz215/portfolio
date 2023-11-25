@@ -10,7 +10,7 @@ function About() {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="wrapper">
+    <div className="wrapper" id="about">
       <div className="about-container">
         <div className="image-container">
           <img className="about-image" src={aboutBanner} alt="" />
