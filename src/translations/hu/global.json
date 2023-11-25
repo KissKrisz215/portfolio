@@ -58,5 +58,13 @@
       "tech3": "Javascript",
       "tech4": "P5.js"
     }
+  },
+  "contact": {
+    "subtitle": "Elérhetőség",
+    "title": "Keressenek Bátran!",
+    "location": "Lakhely",
+    "mail": "Email",
+    "locationdata": "Budapest, Magyarország",
+    "maildata": "kisskrisztian215@gmail.com"
   }
 }

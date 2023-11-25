@@ -55,5 +55,13 @@
       "DemoUrl": "https://kisskrisz215.github.io/fruit-ninja/",
       "icon": "🥥"
     }
+  },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Don't be shy! Hit me up!",
+    "location": "Location",
+    "mail": "Mail",
+    "locationdata": "Budapest, Hungary",
+    "maildata": "kisskrisztian215@gmail.com"
   }
 }

@@ -1,0 +1,56 @@
+.contact-container{
+    max-width:1000px;
+    width:100%;
+    min-height:420px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.subtitle{
+    color:#147EFB;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:1.2rem;
+    margin-bottom: 0.7rem;
+}
+
+.title{
+    font-size:1.7rem;
+    font-weight:700;
+    display: flex;
+    align-items: center;
+    gap:0.2rem;
+}
+
+.cards-container{
+    display:flex;
+    gap:5rem;
+    margin-top:3rem;
+}
+
+.contact-card{
+    display:flex;
+    gap:1rem;
+}
+
+.content-icon svg{
+    stroke:#147EFB;
+}
+
+.content-icon{
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding:0.7rem;
+    border-radius: 50%;
+}
+
+.content-card-title{
+    font-weight:700;
+    font-size:1.2rem;
+}
+
+.content-card-description{
+    color: #767676;
+    font-weight:500;
+    font-size:1.1rem;
+}
