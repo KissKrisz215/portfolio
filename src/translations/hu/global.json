@@ -32,7 +32,7 @@
       "tech3": "Styled-Components"
     },
     "supershop-project": {
-      "title": "SuperShop Webshop",
+      "title": "SuperShop",
       "date": "2023. november",
       "description": "A SuperShop egy élelmiszerbolt  weboldal. Ahol kölönböző élelmiszerek közül válogathat és leadhatja megrendelését.",
       "tech": ["React", "Redux", "Node.js", "MongoDB"],
@@ -46,7 +46,7 @@
       "tech5": "Express"
     },
     "fruitninja-project": {
-      "title": "Fruit Ninja Játék",
+      "title": "Fruit Ninja",
       "date": "2023. április",
       "description": "A Fruit Ninja egy olyan játék, ahol a játékosok célja hogy a lehető legtöbb gyümölcsöt kettévágják a játék időn belül.",
       "tech": ["HTML", "CSS", "Javascript", "P5.js"],
