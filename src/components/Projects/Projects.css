@@ -143,3 +143,30 @@
 .link-text{
     font-size:1.1rem;
 }
+
+@media screen and (max-width: 968px) {
+    .container-projects{
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       padding: 4rem 1rem;;
+    }
+    .container-title{
+        line-height:2.6rem;
+        margin-top: 1rem;
+    }
+    .project-card{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1.5rem;
+    }
+    .image{
+        max-height: 600px;
+    }
+    .project-image-container{
+        width: 100%;
+    }
+    .project-text-container{
+        width: 100%;
+    }
+}

@@ -18,7 +18,6 @@ function Projects() {
           <span>🧩</span>
         </h4>
         <div className="projects-container">
-          {/* Project #1 */}
           <div className="project-card">
             <div className="project-image-container">
               <a href={t("portfolio.crypto-project.DemoUrl")} target="_blank">
@@ -101,7 +100,6 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* Project #2 */}
           <div className="project-card">
             <div className="project-image-container">
               <a
@@ -193,7 +191,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* Project #3 */}
+
           <div className="project-card">
             <div className="project-image-container">
               <a

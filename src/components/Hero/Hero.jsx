@@ -67,7 +67,7 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div>
+          <div className="picture-container">
             <img className="profile-picture" src={profilePicture} alt="" />
           </div>
         </div>

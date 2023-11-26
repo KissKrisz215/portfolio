@@ -54,3 +54,31 @@
     font-weight:500;
     font-size:1.1rem;
 }
+
+@media screen and (max-width:968px) {
+    .contact-container{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 3rem 0rem;
+    }
+    .title{
+        text-align: center;
+    }
+    .cards-container{
+        flex-direction: column;
+    }
+    .contact-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-icon{
+        width:70px;
+        height:70px;
+    }
+    .content-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

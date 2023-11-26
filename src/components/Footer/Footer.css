@@ -30,3 +30,13 @@
     transform: scale(1.2);
     transition: all .18s ease-in-out;
 }
+
+@media screen and (max-width: 968px) {
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        gap:2.5rem;
+        padding: 2.5rem 0rem;
+        text-align: center;
+    }
+}

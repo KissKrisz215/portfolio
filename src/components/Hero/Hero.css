@@ -78,7 +78,7 @@
 .technologies-title{
     border-right: 2px solid rgba(45,46,50,.5);
     padding:0rem 1rem 0rem 0rem;
-    display:inline;
+    display:block;
     font-family: Mulish, sans-serif;
     font-weight:600;
     font-size:1.2rem;
@@ -132,4 +132,62 @@
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   position: relative;
   transition: all 1s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        height:80vh;
+    }
+    .hero-content{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    .picture-container{
+        order:1;
+    }
+    .hero-text{
+        order:2;
+    }
+    .profile-picture{
+        max-width:270px;
+    }
+    .hero-title{
+        font-size:2.4rem;
+        line-height: 2.6rem;
+    }
+    .hero-text{
+        margin-top:2rem;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-title{
+        text-align: center;
+    }
+    .description-text{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .technologies-container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .technologies-title{
+        border-right:none ;
+        border-bottom: 2px solid rgba(45,46,50,.5);
+        padding-left: 0.4rem;
+        padding-bottom: 0.55rem;
+    }
+    .technologies-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero-icon{
+     width: 3rem;
+     height: 3rem;
+     left:75%;
+    }
 }

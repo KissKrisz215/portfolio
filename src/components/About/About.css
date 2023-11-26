@@ -77,3 +77,28 @@ line-height:2.1rem;
     position: absolute;
     animation: rotate 9s linear infinite;
 }
+
+@media screen and (max-width: 768px) {
+    .about-container{
+        flex-direction: column;
+        padding: 6rem 2rem;
+    }
+    .image-container{
+        width: 100%;
+    }
+    .circle-container{
+        display: none;
+    }
+    .text-container{
+        width: 100%;
+    }
+    .about-title{
+        text-align: center;
+    }
+    .about-subtitle{
+        text-align: center;
+    }
+    .about-description{
+        text-align: center;
+    }
+}
