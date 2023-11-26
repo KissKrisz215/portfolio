@@ -18,7 +18,7 @@ function Hero() {
               <img className="hero-icon" src={heroIcon} />
             </div>
             <div className="hero-description">
-              <div className="description-text">{t("hero.description")} 📍</div>
+              <div className="description-text">{t("hero.description")}📍</div>
             </div>
             <div className="hero-socials">
               <a

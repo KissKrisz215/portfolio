@@ -20,6 +20,7 @@
 .hero-container{
     max-width:1000px;
     width:100%;
+    padding:0rem 1rem;
 }
 
 .hero-content{
@@ -134,7 +135,7 @@
   transition: all 1s ease-in-out;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 986px) {
     .hero{
         height:80vh;
     }
@@ -186,8 +187,35 @@
         justify-content: center;
     }
     .hero-icon{
-     width: 3rem;
-     height: 3rem;
-     left:75%;
+     width: 2.5rem;
+     height: 2.5rem;
+     left:calc(100% + 1rem);
     }
+}
+
+
+@media screen and (max-width:768px) {
+    .hero-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        left:75%;
+       }
+       .hero-icon{
+           left:calc(75%);
+       }
+}
+
+@media screen and (max-width:450px) {
+    .hero-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        left:75%;
+       }
+       .hero-icon{
+           left:calc(82%);
+       }
+       .hero{
+        height:100%;
+        padding: 1.5rem 1rem;
+       }
 }

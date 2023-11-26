@@ -13,10 +13,7 @@ function Projects() {
     <div className="wrapper wrapper-projects" id="projects">
       <div className="container-projects">
         <span className="container-subtitle">{t("portfolio.subtitle")}</span>
-        <h4 className="container-title">
-          {t("portfolio.title")}
-          <span>🧩</span>
-        </h4>
+        <h4 className="container-title">{t("portfolio.title")} 🧩</h4>
         <div className="projects-container">
           <div className="project-card">
             <div className="project-image-container">
