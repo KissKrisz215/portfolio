@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 import "./Navbar.css";
+import MobileNavbar from "../MobileNavbar/MobileNavbar";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
 
   return (
     <div className="navbar wrapper px-12">
-      <div className="container flex items-center justify-between">
+      <div className=" container flex items-center justify-between">
         <Link
           className="navbar-brand"
           to="home"
@@ -20,7 +21,7 @@ function Navbar() {
         >
           Krisztian.dev
         </Link>
-        <div className="flex gap-7">
+        <div className="links-container flex gap-7">
           <Link
             to="home"
             spy={true}
@@ -63,6 +64,7 @@ function Navbar() {
           </Link>
           <LanguageSelector />
         </div>
+        <MobileNavbar />
       </div>
     </div>
   );

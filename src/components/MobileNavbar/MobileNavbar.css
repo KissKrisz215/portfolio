@@ -1,0 +1,66 @@
+@media screen and (min-width: 968px) {
+    .mobile-container{
+        display: none;
+    }
+}
+
+.hamburger-icon{
+    cursor: pointer;
+}
+
+.hamburger-icon svg{
+    transition: all .14s ease-in-out;
+}
+
+.hamburger-icon:hover svg{
+    stroke:#147EFB;
+    transition: all .14s ease-in-out;
+}
+
+.navbar-dropdown{
+    position: fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button{
+    position: absolute;
+    right:1.7rem;
+    top:1.2rem;
+    cursor: pointer;
+}
+
+.close-button svg{
+    transition: all .14s ease-in-out;
+}
+
+.close-button:hover svg{
+    stroke:#147EFB;
+    transition: all .14s ease-in-out;
+}
+
+.mobile-links{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.mobilenavbar-link{
+    font-size: 1.5rem;
+    font-weight:700;
+    cursor: pointer;
+    transition: color .15s ease-in-out;
+}
+
+.mobilenavbar-link:hover{
+    color: #147EFB;
+    transition: color .15s ease-in-out;
+ }

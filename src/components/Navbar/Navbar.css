@@ -28,3 +28,9 @@
 .navbar-link:hover{
    color: #147EFB;
 }
+
+@media screen and (max-width: 968px) {
+    .links-container{
+    display:none;
+    }
+}

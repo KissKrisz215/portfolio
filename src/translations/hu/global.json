@@ -22,7 +22,7 @@
     "crypto-project": {
       "title": "Crypto Tracker",
       "date": "2023. Október",
-      "description": "A Kripto Nyomkövető egy olyan alkalmazás, amely lehetővé teszi a felhasználók számára, hogy valós időben információt szerezzenek különböző kriptovalutákról.",
+      "description": "A Crypto Tracker egy olyan alkalmazás, amely lehetővé teszi a felhasználók számára, hogy valós időben információt szerezzenek különböző kriptovalutákról.",
       "tech": ["React", "Redux", "Styled-Components"],
       "CodeUrl": "https://github.com/KissKrisz215/crypto-app",
       "DemoUrl": "https://cryptotracker.pro/",
