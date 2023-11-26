@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import "./Hero.css";
@@ -15,7 +15,13 @@ function Hero() {
           <div className="hero-text">
             <div className="hero-title-container">
               <h1 className="hero-title">{t("hero.title1")}</h1>
-              <img className="hero-icon" src={heroIcon} />
+              <img
+                className="hero-icon"
+                style={{
+                  left: i18n.language === "hu" ? "43%" : "50%",
+                }}
+                src={heroIcon}
+              />
             </div>
             <div className="hero-description">
               <div className="description-text">{t("hero.description")}📍</div>

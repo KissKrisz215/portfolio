@@ -189,7 +189,7 @@
     .hero-icon{
      width: 2.5rem;
      height: 2.5rem;
-     left:calc(100% + 1rem);
+     left:calc(100% + 1rem) !important;
     }
 }
 
@@ -201,7 +201,7 @@
         left:75%;
        }
        .hero-icon{
-           left:calc(75%);
+           left:calc(75%) !important;
        }
 }
 
@@ -212,7 +212,7 @@
         left:75%;
        }
        .hero-icon{
-           left:calc(82%);
+           left:calc(82%) !important;
        }
        .hero{
         height:100%;
